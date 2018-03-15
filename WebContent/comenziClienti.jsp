@@ -137,7 +137,7 @@
                 </td>
             </tr>
         </table>
-        <%			//long idcomandalinii = 0;
+        <%			
         			
                     idcomandalinii = request.getParameter("getTaskIdName");
                     
