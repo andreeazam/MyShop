@@ -13,11 +13,11 @@
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
-<link href="/MyShop1/bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap.css" rel="stylesheet" type="text/css" />
+<link href="/MyShop1/MyShopWeb/bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap.css" rel="stylesheet" type="text/css" />
 
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Logare</title>
+<title>Login</title>
 </head>
 <body>
 	<%!
@@ -149,15 +149,15 @@
 			 		}
 		}	
 	%>	
-	<form name="myForm" action="paginaLogIn.jsp" method="POST">
+	<form name="myForm" action="LogInWeb.jsp" method="POST">
 		<table border="0">
 			<tbody>
 				<tr>
-					<td>Utilizator</td>
+					<td>User</td>
 					<td><input type="text" name="usernameAngajat" value="" size="50"/></td>
 				</tr>
 				<tr>
-					<td>Parola</td>
+					<td>Password</td>
 					<td><input type="password" name="parola" value="" size="50"/></td>
 				</tr>
 			</tbody>

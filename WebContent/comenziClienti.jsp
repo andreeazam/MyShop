@@ -217,11 +217,11 @@
             		if(request.getParameter("setnextstat")!= null){
 	            		try{
 	            			
-	               		 Class.forName("oracle.jdbc.driver.OracleDriver");
-	                     String URL = "jdbc:oracle:thin:@37.120.250.20:1521:oracle";
-	                     String USERNAME = "ZAMFIR_ANDREEA";
-	                     String PASSWORD = "stud";
-	           
+	                		 Class.forName("oracle.jdbc.driver.OracleDriver");
+	                         String URL = "jdbc:oracle:thin:@localhost:1521:andreeaz";
+	                         String USERNAME = "SCOTT";
+	                         String PASSWORD = "stud";
+	           				
 	                     Connection conn=DriverManager.getConnection(URL, USERNAME, PASSWORD);
 	                     int idStatus = 0 ;
 	                     ResultSet rs;
